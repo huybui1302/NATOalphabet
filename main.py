@@ -10,7 +10,7 @@ def alphabetize():
     try:
         output_list = [phonetic_dict[letter] for letter in word]
     except KeyError:
-        print("Input only letters plz senpai")
+        print("Input only letters please")
         alphabetize()
     else:
         print(output_list)
